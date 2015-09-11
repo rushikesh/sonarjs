@@ -13,6 +13,10 @@
     padding-top: 2em;
 }
 
+.highLightColor{
+ background-color: greenyellow;   
+}
+
 body {
     background: url('../img/sonar.png') no-repeat right center fixed;
 }
