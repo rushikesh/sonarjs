@@ -17,6 +17,16 @@
  background-color: greenyellow;   
 }
 
+.bigFont {
+    font-size: 1.2em;
+    color: red
+}
+
+.boldFont {
+    font-weight: bold;
+    color: blue;
+}
+
 li {
     margin-bottom: 1em;
 }

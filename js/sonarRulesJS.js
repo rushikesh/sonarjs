@@ -22,6 +22,9 @@ app.controller("myCtrl", function ($scope) {
         vm.selected = index;
         vm.title = data.name;
         vm.severity = data.severity;
+        vm.debtChar = data.debtCharName;
+        vm.debtSubChar=data.debtSubCharName;
+        vm.debtCost = data.debtRemFnOffset;
         vm.desc = data.htmlDesc;
         $('#myModal').modal('show');
     };
@@ -30,6 +33,6 @@ app.controller("myCtrl", function ($scope) {
 
 $(document).ready(function () {
     $("#myModal").on('hidden.bs.modal', function () {
-        window.scrollTo(mevent.pageX, mevent.pageY - 800);
+        window.scrollTo(mevent.pageX, mevent.pageY - 400);
     });
 });
